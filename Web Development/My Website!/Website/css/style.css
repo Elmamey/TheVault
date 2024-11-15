@@ -1,0 +1,426 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+}
+
+
+/* Header styles */
+.index_H {
+    background-color: #0E131F;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 0 ;
+    font-size: 64px;
+    
+}
+
+.breed_H {
+    background-image: url("/Website/images/Header_cat_breed.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.trending_H {
+    background-image: url("/Website/images/header-website.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.videos_H {
+    background-image: url("/Website/images/media_header.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.content {
+    min-height: 100vh; /* Allows the main content area to expand */
+    padding-bottom: 50px; /* Adds space at the bottom if needed */
+}
+
+/* My about page classes */
+.about_page {
+    padding: 150px 200px 0px;
+    font-size: 95px;
+    margin-top: -50px;
+    margin-right: 110px;
+}
+
+.about {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 200px;
+    width: 50%;
+    position: relative;
+    bottom: 30vh;
+    text-align: justify;
+    color: #6c6868; 
+}
+
+.about1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    right: -52%;
+    width: 40%;
+    top: -37vh;
+    margin-bottom: 1.5%;
+    text-align: justify;
+    color: #6c6868; 
+}
+.aboutHeader {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    position: relative;
+    right: -52%;
+    top: -37vh;
+    width: 40%;
+    margin-bottom: 2%;
+    text-align: justify;
+    color: #6c6868; 
+}
+
+
+
+.aboutimg {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+    position: relative;
+    border-radius: 5%; /* round image */
+    right: -65%;
+    top: -vh;
+}
+
+.clickable-image {
+    display:inline-flex; /* Ensures the shadow wraps around the image */
+    box-shadow: 0 4px 6px rgba(15, 14, 14, 0.5); /* Example: red shadow */
+    border-radius: 5%; /* If you want rounded corners */
+    transition: box-shadow 0.3s; /* Adds a smooth transition effect */
+    position: relative;
+    float: right;
+    
+
+}
+
+.aboutimg1 {
+    display: inline-block; /* Ensures the shadow wraps around the image */
+
+    width: 470px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+    position: relative;
+    right: -10%; 
+    top: 12vh;
+    border-radius: 5%; /* round image */
+}
+
+#scrollButton {
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    bottom: 10vh;
+}
+
+
+.right-text {
+    margin-top: -500px;
+    margin-left: 100px;
+    width: 25%; /* Adjust the width of the text containers */
+    float: right;
+    font-size: 19px;
+}
+
+.left-text
+ {
+    margin-top: -500px;
+    margin-left: 200px;
+    width: 30%; /* Adjust the width of the text containers */
+    float: left;
+    font-size: 19px;
+    
+ }
+
+.chart-container {
+    width: 80%; /* Adjust the width of the chart container */
+    margin: 0 10%; /* Add margin to separate the chart from the text */
+    margin-top: 180px;
+    margin-bottom: 150px;
+
+}
+
+/* Add shadow to horizontal line separator */
+.line_divider {
+    border: none; /* Remove default border */
+    height: 2px; /* Set the height of the line */
+    background-color: #878585; /* Set the color of the line */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin: 30px 0; /* Add margin for spacing */
+}
+
+
+.divider {
+        border: none;
+        height: 2px;
+        background-color: #878585;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: -2px 0 30px 0; /* Pulls the divider up by 20px */
+    }
+    
+
+
+
+
+/* Body background color */
+ 
+
+
+#oddPage
+{
+    background-color: #f3f1f1;
+    
+    
+}
+/*Dark mode changes!*/
+
+.dark-mode {
+  background-color: #111113;
+  color: white;
+}
+.light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+ }
+
+#mode {
+  width: 50%;
+  height: 50%;
+}
+
+
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    
+    
+    
+}
+  
+
+nav a {
+    float: none !important;
+    display: inline !important;
+    padding: 12px 10px !important;
+    color: white !important; 
+    text-decoration: none !important;
+    font-size: 18px;
+    width: 20%;
+    text-align: center !important; 
+
+    
+}
+
+nav a:hover {
+    color:#5fc1c2!important;
+}
+
+
+
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    background-color: #02040f !important;
+    
+    
+}
+
+#fix {
+
+    margin-bottom: 50px;
+}
+
+
+/* Apply the custom font to h1 */
+h1, h3, h4, button {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-weight: 600;
+
+}
+
+
+
+ p {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+
+
+.adjust {
+    position: relative;
+    bottom: 165vh;
+}
+
+
+
+/* Image hover effect */
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px;
+    color:#2a2b2b!important;
+
+
+}
+
+
+
+
+
+ /* Animate the footer to appear and disappear when the user scrolls to the bottom of the page.*/
+ .hidden-footer {
+    animation: footer-appear-animation 0.5s ease-in-out forwards; /* Animate the footer to appear */
+   /* animation: footer-disappear-animation 0.5s ease-in-out forwards;  Animate the footer to disappear */
+  }
+  
+  @keyframes footer-appear-animation {
+    from {
+      /* Start with the footer translated 100% down and invisible */
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      /* End with the footer translated back to 0 and visible */
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes footer-disappear-animation {
+    from {
+      /* Start with the footer translated to 0 and visible */
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      /* End with the footer translated 100% down and invisible */
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+  
+  
+  
+
+/* Footer styles */
+footer {
+    background-color: #08040C !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: 10px;
+    position: fixed; /* Fixed position keeps it at the bottom of the viewport */
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+/*Section image with the cats style*/
+
+section img {
+    margin-right: 20px; /* Adjusst the value to control the spacing */
+}
+
+.expander {
+    width: 300%;
+}
+
+/* Set up the breed_S section */
+.breed_S {
+    display: flex; /* Use flex layout to arrange items in a row */
+    justify-content: space-around; /* Space items evenly within the container */
+    margin: 20px 0; /* Margin around the entire breed_S section, or at least try*/
+    min-height: 200vh; /* 100% of the viewport height */
+}
+
+/* Style for the container of each image and button */
+.image-container {
+    text-align: center; /* Center the content within the container */
+}
+
+/* Remove default margin for images to control spacing */
+.voting img {
+    margin: 0;
+}
+
+/* Adjust the top margin to control spacing between image and button */
+.voting button {
+    margin-top: 10px; /* You can modify this value to control the spacing */
+}
+
+#Flink {
+
+    color: #FF9900 !important; /*This is for the Pexels' artists credits*/
+}
+
+#my-chart {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  #my-chart .column {
+    position: relative;
+  }
+  #my-chart .legend {
+    position: relative;
+  }
+  
+  /*COLUMN CHART START*/
+
+  #column-example-1 {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  #column-example-1 .column {
+    --aspect-ratio: 4 / 3;
+  }
+  

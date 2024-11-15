@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/main.css">
+    <link rel="stylesheet" href="/Website/css/style.css">
+    <title>CatCentral</title>
+</head>
+
+<body>
+    <section> <!-- This section contains the NavBar of the website -->
+
+        <header class="videos_H">
+            <div>
+                <h1>CatCentral</h1>
+                <p>Here you can find videos about silly cats</p>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Website/index.html">CatCentral</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Website/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Website/html/breeds.html">Breeds</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="/Website/html/Trending.html" role="button" aria-expanded="false">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Website/html/videos.html">Videos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="content"><!-- This section contains the contents of the website -->
+        <p>This is just a provisional website to demonstrate the idea of cats. Unfortunately, common licenses do not include any funny cats, but I will find a workaround to make the website more entertaining.</p>
+        <video class="center" width="320" height="240" controls>
+            <source src="/LabWork_W5/my_website/images/KittenPlaying.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3 class="center">Check this cat playing with a toy mouse!</h3>
+        <div class="d-flex gap-2 justify-content-center py-5">
+            <button onclick="darkMode()" class="btn btn-dark rounded-pill px-3" type="button">Dark Mode</button>
+            <button onclick="lightMode()" class="btn btn-light rounded-pill px-3" type="button">Light Mode</button>
+        </div>
+    </section>
+
+    <footer class="hidden-footer" id="footer"> <!-- Footer -->
+        <p>©2023 Created by Antonio Cruel <br> Image credits: Mike Bird/<a id="Flink" href="https://www.pexels.com/photo/elvis-presley-digital-wallpaper-114820/" target="_blank">Pexels Page.</a></p>
+    </footer>
+
+    <!-- Scripts used: -->
+    <script src="/src/bootstrap.bundle.min.js"></script>
+    <script src="/Website/javascript/script.js"></script>
+
+</body>
+
+</html>

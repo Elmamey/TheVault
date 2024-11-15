@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/src/main.css">
+    <link rel="stylesheet" href="/Website/css/style.css">
+    <link rel="stylesheet" href="/node_modules/charts.css/dist/charts.css">
+
+    <!--Pretty buttons LINKS:-->
+    <!-- Pheasant Demure Buttons: Required -->
+    <link rel="stylesheet" href="/Website/css/pheasant-buttons-main/dist/css/pheasant-demure-buttons.css" type="text/css" media="all" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+ 
+    <title>About me</title>
+</head>
+
+<body>
+    <section> <!-- This section contains the NavBar of the website -->
+        <header class="index_H">
+            <div>
+                <h1 class="index_H">DevNotes</h1>
+            </div>
+        </header>
+    
+        <nav id ="fix" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Website/index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Website/html/notes.html">Notes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Website/html/about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="/Website/html/contact.html" role="button" aria-expanded="false">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Website/html/archive.html">Archive</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section> <!-- End of NavBar -->
+
+    <!--Start of about Part 1-->
+        <section class="content">
+            
+            <h1 class="about_page">about.</h1>
+            <a href="https://x.com/N0cturneRequiem" target="blank">
+                <img class="aboutimg" class="clickable-image" src="/Website/images/Final Icon.png" alt="Clickable Image">
+            </a>
+            <p class="about">I am a computer scientist based in<br>Dublin, Ireland.</p>
+            <p class="about">I've always wondered how awesome my ideas would look if somebody developed them, now I 
+                decided to just make them a reality. Either it being game development, websites,
+                silly apps or trying to figure out art and music, I am always working on something.
+            </p>
+            
+            <button type="button" id="scrollButton" class="pheasant-demure-button solid dark hover icon">
+                <span class="label">Context?</span>
+                <span class="material-icons icon"> > </span>
+            </button>
+
+            
+
+            
+        </section> <!--End of About Part 1-->
+        <section class="content" id="oddPage" >
+        <hr class="line_divider">
+
+        
+        <!--Start of about Part 2-->
+        
+
+            <div class="chart-container">
+            <canvas id="skillsPieChart" width="400" height="400"></canvas>
+        
+
+            <div class="left-text">
+                <h3>Dev hobbies</h3>
+                <p>HTML / CSS</p>
+                <p>JavaScript</p>
+                <p>C</p>
+                <p>Python</p>
+                <p>Java</p>
+            </div>
+            <div class="right-text">
+                <h3>Art!</h3>
+                <p>UI and UX Design</p>
+                <p>Music Composition</p>
+                <p>Photography</p>
+                <p>Western animation nerd</p>
+                <p>SMT enthusiast lol</p>
+            </div>
+           
+        </section>
+        </div>
+        
+        <!-- Section 3 start-->
+        <section class="content">  
+            <hr class="divider">
+
+            <a href="https://x.com/N0cturneRequiem" target="blank">
+                <img class="aboutimg1" src="/Website/images/Placeholder image for website.png" alt="Clickable Image of portfolio"></a>
+        
+         <p class="aboutHeader">What do  do?</p>
+            <p class="about1">Digital Art</p>
+            <p class="about1">Websites</p>
+            <p class="about1">Programming applications</p>
+            <p class="about1">Video Game Development</p>
+            <p class="about1">Video production</p>
+        </section>
+
+        <section class="content">
+            <p class="aboutHeader">What do  do?</p>
+            
+
+            <div id="column-example-1">
+                <table class="charts-css column hide-data">
+                    <caption> Column Example #1 </caption> 
+                    <tbody>
+                        <tr>
+                    <td style="--size: 0.2;">
+                            <span class="data"> $ 20K </span>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td style="--size: 0.4;">
+                            <span class="data"> $ 40K </span>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td style="--size: 0.6;">
+                            <span class="data"> $ 60K </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="--size: 0.8;">
+                            <span class="data"> $ 80K </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="--size: 1.0;">
+                            <span class="data"> $ 100K </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+              
+
+
+            </section>
+        
+    
+        
+
+
+        <footer class="hidden-footer" id="footer">
+            <p>©2023 Created by Antonio Cruel</p>
+        </footer>
+    </section>
+    <script src="/src/bootstrap.bundle.min.js"></script>
+    <script src="/Website/javascript/script.js"></script>
+    
+</body>
+
+</html>
