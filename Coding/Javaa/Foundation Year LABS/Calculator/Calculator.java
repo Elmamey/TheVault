@@ -10,7 +10,7 @@ public class Calculator
             float first_number;
             float second_number;
             float add;
-            float subtract;
+            float subtract; 
             float multiply;
             float divide;
      
