@@ -1,0 +1,141 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto; /* Keeps vertical scrollbar */
+}
+
+/* Header styles */
+.index_H {
+    background-image: url("/public/images/Final\ banner.png") !;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 64px;
+}
+
+.breed_H {
+    background-image: url("/public/images/Final\ banner.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* ... other header styles ... */
+
+.navbar {
+    color: #0c1e2f; /* Example: Dark blue text */
+}
+
+
+
+/* Main content area */
+.content {
+    padding-bottom: 50px; /* Adds bottom padding if needed */
+}
+
+/* About page styles */
+.about_page {
+    font-size: 95px;
+    margin-top: -50px; /* Adjust as needed */
+    padding: 150px 0; /* Consistent padding */
+    text-align: center; /* Center the heading */
+}
+
+.about {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+    text-align: justify;
+    color: #6c6868;
+    margin-bottom: 30px; /* Add spacing below paragraph */
+}
+
+.about1, .aboutHeader { /* Combine similar styles */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: #6c6868;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto 15px; /* Center horizontally & add bottom margin */
+}
+
+.about1 {
+    font-size: 20px;
+}
+
+.aboutHeader {
+    font-size: 42px;
+}
+
+.aboutimg {
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    display: block; /* Makes the image a block element */
+    margin: 20px auto;  /* Centers the image horizontally */
+    box-shadow: 0 4px 6px rgba(15, 14, 14, 0.5);
+    transition: box-shadow 0.3s;
+}
+
+
+.clickable-image:hover {
+    box-shadow: 0 8px 12px rgba(15, 14, 14, 0.8); /* Darker shadow on hover */
+}
+
+
+
+.aboutimg1 {
+    width: 470px;
+    height: auto;
+    border-radius: 5%;
+    display: block; /* Makes the image a block element */
+    margin: 20px auto; /* Centers the image horizontally */
+
+}
+
+/* ... rest of your styles */
+
+.chart-container {
+    width: 80%;
+    margin: 180px auto 150px; /* Center horizontally with top/bottom margin */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align to top */
+}
+
+.left-text, .right-text {
+    width: auto; /* Let the content determine width */
+    font-size: 19px;
+}
+
+.line_divider, .divider {
+    border: none;
+    height: 2px;
+    background-color: #878585;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 30px 0; /* Consistent margin */
+}
+
+
+
+/* ... other styles ... */
+footer {
+    background-color: #08040C !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 10px;
+    width: 100%;
+    /* Removed fixed positioning */
+}
+
+
+/* ... rest of your styles (media queries, etc.) */
+

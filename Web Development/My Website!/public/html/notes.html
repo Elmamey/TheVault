@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Website/css/style.css">
+    <title>CatCentral</title>
+</head>
+
+<body>
+    <header class="breed_H">
+        <div>
+            <h1>CatCentral</h1>
+            <p>Here you can search and learn about cat breeds</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Website/index.html">CatCentral</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Website/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Website/html/breeds.html">Breeds</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="/Website/html/Trending.html" role="button"
+                           aria-expanded="false">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Website/html/videos.html">Videos</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <section>
+        <p>This is just a provisional website to demonstrate the idea of cats. Unfortunately, common licenses do not include any funny cats, but I will find a workaround to make the website more entertaining.</p>
+        <h3>Quick question! Which cat do you like best?</h3>
+        <h1>Choose wisely!</h1>
+    </section>
+
+    <section class="breed_S">
+        <div class="voting">
+            <div class="image-container">
+                <img src="/Website/images/britishShortHair.jpg" alt="Image of British Short Hair" width="200" height="150">
+            </div>
+            <div class="d-flex gap-2 justify-content-center py-5">
+                <button class="btn btn-primary rounded-pill px-3" type="button">British Short Hair Cat!</button>
+            </div>
+        </div>
+        <div class="voting">
+            <div class="image-container">
+                <img src="/Website/images/siamese.jpg" alt="Image of a Siamese cat" width="170" height="230">
+            </div>
+            <button class="btn btn-primary rounded-pill px-3" type="button">Siamese Cat!</button>
+        </div>
+        <div class="voting">
+            <div class="image-container">
+                <img src="/Website/images/persianCat.jpg" alt="Image of a Persian Cat" width="200" height="150">
+            </div>
+            <button class="btn btn-primary rounded-pill px-3" type="button">Persian Cat!</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Do you know what breeds of cat can you find in the Cat island in Japan?</h2>
+        <ul class="adjust" id="Cat-List"></ul>
+        <div id="cat-info"></div>
+    </section>
+
+    <div class="d-flex gap-2 justify-content-center py-5">
+        <button onclick="darkMode()" class="btn btn-dark rounded-pill px-3" type="button">Dark Mode</button>
+        <button onclick="lightMode()" class="btn btn-light rounded-pill px-3" type="button">Light Mode</button>
+    </div>
+
+    <footer class="hidden-footer" id="footer">
+        <p>©2023 Created by Antonio Cruel <br> Image credits: Tim Raack / <a id="Flink"
+            href="https://www.pexels.com/photo/cat-sleeping-among-pots-on-fence-18110321/" target="_blank">Pexels Page.</a></p>
+    </footer>
+    
+    <script src="/src/bootstrap.bundle.min.js"></script>
+    <script src="/Website/javascript/script.js"></script>
+
+</body>
+</html>
