@@ -11,7 +11,7 @@ html, body {
 
 /* Header styles */
 .index_H {
-    background-image: url("/public/images/Final\ banner.png") !;
+    background-image: url("/public/images/Final\ banner.png");
     color: white;
     text-align: center;
     padding: 40px 0;

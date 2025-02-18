@@ -20,9 +20,9 @@ def main():
             #get the dimensions to calculate tha volume and surface of the box
             b_height = float(input("Please enter the box height!: "))
             b_length = float(input("Please enter the box length!: "))
-            b_width = float(input("Thanks! Now finally enter the with: "))
+            b_width = float(input("Thanks! Now finally enter the width: "))
 
-            #valculate the volume and surface area
+            #calculate the volume and surface area
 
             volume = b_height * b_length * b_width
             surface_area = 2 * (b_height * b_length + b_height * b_width + b_length * b_width)
@@ -32,7 +32,7 @@ def main():
         elif decision == 'C':
             repeat = False
 
-            #get radious for the circle
+            #get radius for the circle
 
             radius = float(input("Please Enter the circle radius"))
 
